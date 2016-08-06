@@ -13,6 +13,6 @@ output='ARG_PATH:'$ARG_PATH'  ARG_NAME:'$ARG_NAME'  ARG_LABEL:'$ARG_LABEL
 
 echo "test output here:"$output
 echo $output >> /tmp/.media-man.log
-echo "input: "$ARG_PATH"/"$ARG_NAME "  output:"$CONFIG_OUTPUT"/"$ARG_NAME
+echo "input: "$ARG_PATH"/"$ARG_NAME "  output:"$CONFIG_OUTPUT"/"$ARG_NAME >> /tmp/.media-man.log
 
 cp $ARG_PATH"/"$ARG_NAME $CONFIG_OUTPUT"/"$ARG_NAME
