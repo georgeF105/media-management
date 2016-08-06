@@ -9,6 +9,6 @@ ARG_LABEL="N/A"
 
 CONFIG_OUTPUT="/mnt/2630A42C1E187F93/To be sorted"
 
-output='ARG_PATH:' + ARG_PATH '  ARG_NAME:' + ARG_NAME + '  ARG_LABEL:' + ARG_LABEL
+output='ARG_PATH:'$ARG_PATH'  ARG_NAME:'$ARG_NAME'  ARG_LABEL:'$ARG_LABEL
 
-echo >> output ../.log 
+echo >> $output ../.log 
