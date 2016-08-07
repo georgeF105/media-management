@@ -2,7 +2,7 @@
 
 import os
 import subprocess
-sortPath = "/home/george/Media_Dump"
+sortPath = "/home/george/media_dump"
 sortPath2 = "/mnt/2630A42C1E187F93/To be sorted"
 
 
