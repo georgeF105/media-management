@@ -18,4 +18,4 @@ OUTPUT=$PENDING_PATH
 
 cp -R "$INPUT" "$OUTPUT"
 
-filebot -script fn:amc --output "$MEDIA_PATH" --action move --conflict skip -non-strict --log-file /tmp/.media-man.log --def plex=localhost:32400 unsorted=y music=y artwork=y excludeList=".excludes" ut_dir="$PENDING_PATH" ut_kind="multi" ut_title="$ARG_NAME" ut_label="$ARG_LABEL"
+filebot -script fn:amc --output "$MEDIA_PATH" --action move --conflict auto -non-strict --log-file /tmp/.media-man.log --def plex=localhost:32400 unsorted=y music=y artwork=y excludeList=".excludes" ut_dir="$PENDING_PATH" ut_kind="multi" ut_title="$ARG_NAME" ut_label="$ARG_LABEL"
